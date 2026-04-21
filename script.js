@@ -7,6 +7,7 @@ const counters = document.querySelectorAll("[data-counter]");
 const typedText = document.getElementById("typed-text");
 const contactForm = document.getElementById("contact-form");
 const formNote = document.getElementById("form-note");
+const backToTopLink = document.querySelector(".back-to-top");
 
 const roles = [
     "Frontend Developer",
@@ -148,5 +149,12 @@ if (contactForm && formNote) {
         event.preventDefault();
         formNote.textContent =
             "Form submission is currently a front-end demo. Connect this form to your preferred form service before deployment.";
+    });
+}
+
+if (backToTopLink) {
+    backToTopLink.addEventListener("click", (event) => {
+        event.preventDefault();
+        window.scrollTo({ top: 0, behavior: "smooth" });
     });
 }
