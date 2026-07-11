@@ -10,9 +10,9 @@ const formNote = document.getElementById("form-note");
 const backToTopLink = document.querySelector(".back-to-top");
 
 const roles = [
-    "Frontend Developer",
-    "UI-Focused Builder",
-    "Responsive Web Designer"
+    "BSc. CSIT Student",
+    "Aspiring AI Engineer",
+    "Software Developer"
 ];
 
 let roleIndex = 0;
