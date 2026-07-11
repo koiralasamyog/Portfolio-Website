@@ -439,13 +439,13 @@ img {
 }
 
 .panel-left {
-    left: 1rem;
-    top: 2rem;
+    left: -1rem;
+    top: -2rem;
 }
 
 .panel-right {
     animation-delay: 1.2s;
-    bottom: 2rem;
+    bottom: 5rem;
     right: 1rem;
 }
 
