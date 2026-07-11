@@ -410,7 +410,7 @@ img {
     display: flex;
     gap: 0.9rem;
     max-width: 16rem;
-    padding: 1rem 1.1rem;
+    padding: 1rem 1rem;
     position: absolute;
     pointer-events: none;
     z-index: 3;
